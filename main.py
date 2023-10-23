@@ -55,4 +55,6 @@ def main():
   else:
     print('no change :(')
 
-main()
+while True:
+  main()
+  time.sleep(60 * 5)
